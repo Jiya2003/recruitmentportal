@@ -1,0 +1,118 @@
+.mid-sec{
+  background-color: #647387;
+}
+
+.company-list-container {
+  padding: 20px;
+}
+
+.company-list-heading {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: #f2f3f8;
+}
+
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.company-name {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white; /* Highlighted color */
+}
+.eligiblity{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.skills{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.company-card {
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #0e1342;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.5s ease-in-out;
+  transition: transform 0.2s ease;
+}
+
+.company-card:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.apply-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.apply-button:hover {
+  background-color: #ff8000;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #0e1342;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.search-bar input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.search-bar button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #ff8000;
+}
+
+

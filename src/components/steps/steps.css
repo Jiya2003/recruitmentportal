@@ -1,0 +1,51 @@
+/* EasySteps Styles */
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.easy-steps-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #415a80;
+    animation: slideIn 1s ease;
+    padding: 20px; /* Reduce the padding to make it more compact */
+  }
+  
+  .attractive-box {
+    padding: 40px;
+    width: 80%;
+    background-color: #1A237E;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    list-style: decimal;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
